@@ -18,7 +18,7 @@ from GetAllPinyin import GetAllPinyin, GetPinyin
 #     pinyin_l.remove('sil')
 # 导入text文件中的汉字
 
-f = open('hanzi1120.txt', 'r+', encoding='utf-8')
+f = open('YourMp3ToText.txt', 'r+', encoding='utf-8')
 wordList = f.read()
 ChineseWordList = [0 for i in range(len(wordList))]  # 拿来放从文件每行找到的汉字
 f.seek(0)  # 注意将读文件指针回到开头
